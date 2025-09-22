@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    font-family:sans-serif;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(237, 237, 237);
+}
+
+h1{
+    color:green;
+    font-style: italic;
+}
+
+.btnDelete{
+    margin:3px;
+    background-color:#d73131;
+    color: white;
+    border:none;
+    border-radius:15px;
+}
+
+.btnDelete:hover{
+    transform: scale(1.2);
+    opacity: 0.7;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.personContainer{
+    display:flex;
+    background-color: lightgray;
+    justify-content:space-between;
+    padding: 4px;
+    box-shadow: 1px 2px 3px #00000040;
+}
